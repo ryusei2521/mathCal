@@ -27,7 +27,7 @@ def btn_click():
 
     #計算する前に値を初期化
     taianser.delete(0,'end')
-    taianser.insert(0,((AA+AB+AC)-(BA+BB+BC)))
+    taianser.insert(0,abs(((AA+AB+AC)-(BA+BB+BC))))
 
 #画面作成
 tki=tkinter.Tk()
